@@ -4,8 +4,17 @@
         <style>
             .grid-container {
               display: inline-grid;
+              width: 100% ;
               grid-template-columns: auto auto auto;
               background-color: #2196F3;
+              padding: 10px;
+              align-self: auto;
+            }
+            .grid-container-categories {
+              display: inline-grid;
+              width: 100% ;
+              grid-template-columns: auto auto auto auto auto auto auto auto auto;
+             
               padding: 10px;
               align-self: auto;
             }
@@ -18,24 +27,91 @@
         <title>Flipkart home page</title> 
             
     </head>  
-   
+<!-- header -->
     <nav>
         <div class="grid-container">
             <div class="grid-item">
-                <img src="img/logo.jpeg" alt="logo" width="100" height="60">
+                <img src="img/logo.jpeg" 
+                alt="logo" 
+                width="100" height="60">
             </div>  
         <div class="grid-item">
             <div class="search">
-                <input type="search" name="search" placeholder="Search,product,brand and more">
+                <input type="search" 
+                name="search" 
+                placeholder="Search,product,brand and more" >
                 <button class="search-button" >search</button>
-                <i class="fa fa-envelope icon">
-                </i>
+                
             </div>
-        </div>
+        </div> 
+       
+          
+        
         <div class="grid-item" >
-            <button type="button">Login</button> 
+            <button type="button">Log in</button> 
+            <select name="more"></select>
+            <button type="button">cart</button> 
         </div>
         </div>
+        
     </nav>
 
+<!--categories-->
+<nav>
+    <div class="grid-container-categories">
+        <div class="grid-item">
+            <figure>
+                <img src="img/sale.png" height="50px" width="50px">
+                <figcaption  >SALE</figcaption>
+            </figure>   
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="img/sale.png" height="50px" width="50px">
+                <figcaption>SALE</figcaption>
+            </figure>   
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="img/sale.png" height="50px" width="50px">
+                <figcaption>SALE</figcaption>
+            </figure>   
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="img/sale.png" height="50px" width="50px">
+                <figcaption>SALE</figcaption>
+            </figure>   
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="img/sale.png" height="50px" width="50px">
+                <figcaption>SALE</figcaption>
+            </figure>   
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="img/sale.png" height="50px" width="50px">
+                <figcaption>SALE</figcaption>
+            </figure>   
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="img/sale.png" height="50px" width="50px">
+                <figcaption>SALE</figcaption>
+            </figure>   
+        </div>
+        <div class="grid-item">
+            <figure>
+                <img src="img/sale.png" height="50px" width="50px">
+                <figcaption>SALE</figcaption>
+            </figure>   
+        </div>
+            </figure> 
+            
+        </div>
+    </div>
+
+
+</nav>       
 </html>
