@@ -121,15 +121,14 @@ padding-left: 2%;
 }
 .sectionHeader button{
   margin-right: 3px;
-  /* margin-left: -2%;  */
+  font-weight: 500;
+  height: 23px;
+  width: 50px;
   float: right;
   text-align: center;
   border : none;
   background-color: #2874f0;
   color: white;
-  font-weight: 500;
-  height: 23px;
-  width: 50px;
 }
 .sectionHeader h1{
   margin-top: 3px;
