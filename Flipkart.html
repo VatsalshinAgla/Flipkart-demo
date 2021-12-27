@@ -1,117 +1,266 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <style>
-            .grid-container {
-              display: inline-grid;
-              width: 100% ;
-              grid-template-columns: auto auto auto;
-              background-color: #2196F3;
-              padding: 10px;
-              align-self: auto;
-            }
-            .grid-container-categories {
-              display: inline-grid;
-              width: 100% ;
-              grid-template-columns: auto auto auto auto auto auto auto auto auto;
-             
-              padding: 10px;
-              align-self: auto;
-            }
-            grid-item {
-            padding: 50px;
-            font-size: 30px;
-            text-align: center;
-            }
-            </style>
-        <title>Flipkart home page</title> 
-            
-    </head>  
-<!-- header -->
-    <nav>
-        <div class="grid-container">
-            <div class="grid-item">
-                <img src="img/logo.jpeg" 
-                alt="logo" 
-                width="100" height="60">
-            </div>  
-        <div class="grid-item">
-            <div class="search">
-                <input type="search" 
-                name="search" 
-                placeholder="Search,product,brand and more" >
-                <button class="search-button" >search</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Flipkart </title>
+    </head>
+    
+    <body>
+        <div class="header">
+            <header>
+                <nav >
+                    <ul >
+                        <li><a href=""><img class="logoimage" src="images/logo.PNG" alt=" logo"></a></li>
+                        <li>
+                            <input class="searchbox" type="text" placeholder="search for products, brands and more" />
+                        </li>
+                        <li ><button class="loginBtn">login</button></li>
+                        <li>
+                            <select name="" id="">
+                                <option value="">more</a></li>
+                            </select>    
+                        <li><a href=""><img src="images/cart.PNG"  class="cartlogo"/></a></li>
+                    
+                    </ul>
+                    
+                </nav>
+            </header>
+        </div>
+        <main>
+            <section>
+                <div class="category-flex">
+                    <ul>
+                        <li>
+                            <figcaption>
+                            <a href="">   
+                            <img src="images/offers.png" alt="top offers" />
+                            <br>Top Offers
+                            </a>    
+                            </figcaption>
+                        </li>
+                        <li>
+                            <figcaption>
+                                <a href=""> 
+                                <img src="images/Grocery.png" alt="Grocery" />
+                                <br>Grocery
+                                </a>    
+                            </figcaption>
+                        </li>
+                    <li>
+                        <figcaption>
+                            <a href=""> 
+                            <img src="images/mobiles.png" alt="Mobiles" />
+                            <br>Mobiles
+                            </a>    
+                        </figcaption>
+                    </li>
+                    <li>
+                        <figcaption>
+                            <a href=""> 
+                            <img src="images/Fashion.png" alt="Fashion" />
+                            <br>
+                            <select name="" id="">
+                                <option value="">Fashion</option>
+                            </select>
+                            </a>    
+                        </figcaption>
+                    </li>
+                    <li>
+                        <figcaption>
+                            <a href=""> 
+                            <img src="images/Electronics.png" alt="Electronics" />
+                            <br>
+                            <select name="" id="">
+                                <option value="">Electronics</option>
+                            </select>
+                            </a>    
+                        </figcaption>
+                    </li>
+                    <li>
+                        <figcaption>
+                            <a href=""> 
+                            <img src="images/Home.png" alt="Home" />
+                            <br><select name="" id="">
+                                    <option value="">Home</option>
+                            </select>
+                            </a>    
+                        </figcaption>
+                    </li>
+                    <li>
+                        <figcaption>
+                            <a href=""> 
+                            <img src="images/Appliances.png" alt="Appliance" />
+                            <br>
+                                <select name="" id="">
+                                    <option value="">Appliance</option>
+                                </select>
+                            </a>    
+                        </figcaption>
+                            
+                    </li>
+                    <li>
+                        <figcaption>
+                            <a href=""> 
+                            <img src="images/Travel.png" alt="Travel" />
+                            <br>Travel
+                            </a>    
+                        </figcaption>
+                    </li>
+                    <li>
+                        <figcaption>
+                            <a href=""> 
+                            <img src="images/Beauty,toys and more.png" alt="Beauty, Toys & More" />
+                            <br>
+                            <select name="" id="">
+                            <option value="">Beauty, Toys & More</option>
+                        </select>
+                        </a>    
+                        </figcaption>
+                    </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sectionclass">
+                <div class="sectionHeader">
+                    <big>Deals of the Day</big>
+                    <small>22 : 07 : 36 left</small>
+                    <button class="viewBtn">view</button>
+                </div>
                 
-            </div>
-        </div> 
-       
-          
-        
-        <div class="grid-item" >
-            <button type="button">Log in</button> 
-            <select name="more"></select>
-            <button type="button">cart</button> 
-        </div>
-        </div>
-        
-    </nav>
-
-<!--categories-->
-<nav>
-    <div class="grid-container-categories">
-        <div class="grid-item">
-            <figure>
-                <img src="img/sale.png" height="50px" width="50px">
-                <figcaption  >SALE</figcaption>
-            </figure>   
-        </div>
-        <div class="grid-item">
-            <figure>
-                <img src="img/sale.png" height="50px" width="50px">
-                <figcaption>SALE</figcaption>
-            </figure>   
-        </div>
-        <div class="grid-item">
-            <figure>
-                <img src="img/sale.png" height="50px" width="50px">
-                <figcaption>SALE</figcaption>
-            </figure>   
-        </div>
-        <div class="grid-item">
-            <figure>
-                <img src="img/sale.png" height="50px" width="50px">
-                <figcaption>SALE</figcaption>
-            </figure>   
-        </div>
-        <div class="grid-item">
-            <figure>
-                <img src="img/sale.png" height="50px" width="50px">
-                <figcaption>SALE</figcaption>
-            </figure>   
-        </div>
-        <div class="grid-item">
-            <figure>
-                <img src="img/sale.png" height="50px" width="50px">
-                <figcaption>SALE</figcaption>
-            </figure>   
-        </div>
-        <div class="grid-item">
-            <figure>
-                <img src="img/sale.png" height="50px" width="50px">
-                <figcaption>SALE</figcaption>
-            </figure>   
-        </div>
-        <div class="grid-item">
-            <figure>
-                <img src="img/sale.png" height="50px" width="50px">
-                <figcaption>SALE</figcaption>
-            </figure>   
-        </div>
-            </figure> 
+                <div class="deal-flex">
+                    <ul>
+                        <li>
+                            <figcaption>
+                            <a href="">
+                            <img src="images/sonata.jpeg" alt="product">
+                            <h2>Casio, Fastrack, Sonata...</h2>
+                            <p>Upto 80%+Extra 10%Off</p>
+                            <small>Knockout Deals!</small>
+                            </a>    
+                            </figcaption>
+                    </li>
+                    <li>
+                        <figcaption>
+                        <a href="">
+                        <img src="images/temple.jpeg" alt="product">
+                        <h2>Home Temple & more</h2>
+                        <p>Extra 10%Off</p>
+                        <small>Space Saving Furniture</small>
+                        </a>    
+                        </figcaption>
+                        </li>
+                    <li>
+                        <figcaption>
+                        <a href="">
+                        <img src="images/tablet.jpeg" alt="product">
+                        <h2>Premium Tablet Cases</h2>
+                        <p>Extra 10%Off</p>
+                        <small>For All Top Models</small>
+                        </a>    
+                        </figcaption>
+                        </li>
+                    <li>
+                        <figcaption>
+                            <a href="">
+                        <img src="images/home-decor.jpeg" alt="product">
+                        <h2>Best Of Home Decor</h2>
+                        <p>From 79</p>
+                        <small>Lowest Price Ever</small>
+                        </a>    
+                        </figcaption>
+                    </li>
+                    <li>
+                        <figcaption>
+                            <a href="">
+                        <img src="images/metronaunts.jpeg" alt="product">
+                        <h2>Metronaunts,Provogue &...</h2>
+                        <p>From 249Extra 10%Off</p>
+                        <small>Jacket, Dresses & More</small>
+                        </a>    
+                        </figcaption>
+                    </li>
+                    <li>
+                        <figcaption>
+                            <a href="">
+                        <img src="images/LAVA.jpeg" alt="product">
+                        <h2>LAVA A1500</h2> 
+                        <p>Flat 830 Off</p>
+                        <small>Now 999</small>
+                        </a>    
+                        </figcaption>
+                    </li>
+                   
+                    </ul>
+                </div>
+                
             
-        </div>
-    </div>
+            
+                
+            </section>
 
-
-</nav>       
-</html>
+            <section class="sectionclass">
+                <div class="sectionHeader">
+                    <big>Books And music Instruments</big><br>
+                    <small>Shop now</small>
+                    <button>view</button>
+                </div>
+                
+                <div class="deal-flex">
+                    <ul>
+                   
+                    <li>
+                        <figcaption>
+                        <a href="">
+                        <img src="images/flutes.jpeg" alt="product">
+                        <h2>Home Temple & more</h2>
+                        <p>Extra 10%Off</p>
+                        <small>Space Saving Furniture</small>
+                        </a>    
+                        </figcaption>
+                        </li>
+                    <li>
+                        <figcaption>
+                        <a href="">
+                        <img src="images/microphone.jpeg" alt="product">
+                        <h2>Premium Tablet Cases</h2>
+                        <p>Extra 10%Off</p>
+                        <small>For All Top Models</small>
+                        </a>    
+                        </figcaption>
+                        </li>
+                    <li>
+                        <figcaption>
+                            <a href="">
+                        <img src="images/acoustic-guitars.jpeg" alt="product">
+                        <h2>Best Of Home Decor</h2>
+                        <p>From 79</p>
+                        <small>Lowest Price Ever</small>
+                        </a>    
+                        </figcaption>
+                    </li>
+                    <li>
+                        <figcaption>
+                            <a href="">
+                        <img src="images/musical-acce.jpeg" alt="product">
+                        <h2>Metronaunts,Provogue &...</h2>
+                        <p>From 249Extra 10%Off</p>
+                        <small>Jacket, Dresses & More</small>
+                        </a>    
+                        </figcaption>
+                    </li>
+                   
+                   
+                    </ul>
+                </div>
+                
+            
+            
+                
+            </section>
+        </main>
+    </body>
+    
+    </html>

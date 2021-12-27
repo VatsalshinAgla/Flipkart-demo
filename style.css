@@ -1,0 +1,198 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+.header {
+  background-color: #204bd6e8;
+ align-items: auto;
+ justify-content: center; 
+ height: 50px;
+
+}
+nav ul {
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  height: 100%;
+  padding: 0px 5px 0px 5px;
+
+}
+nav select{
+  border: none;
+  
+  background-color: #2249c7e8;
+
+}
+.searchbox{
+  width: 300px;
+}
+ 
+
+
+nav a{
+  text-decoration : none;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0;
+}
+.logoimage{
+  height:50px ;
+  padding: 0;
+  margin: 0;   
+}
+
+
+
+.loginBtn{
+  color: #2874f0;
+  font-weight: 500;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 69px;
+  height: 20px;
+  border: 1px solid #dbdbdb;
+  padding-left: 5px;
+ 
+}
+
+
+.category-flex ul{
+  display: flex;
+ 
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  
+  background-color: white;
+  list-style-type: none;
+  
+  
+}
+.category-flex  li {
+padding-left: 2%;
+
+}
+.category-flex a{
+  text-decoration: none;
+ color: black;
+}
+
+.category-flex img{
+  height: 44px;
+  width: 48px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+
+.category-flex select{
+  border:none;
+  background-color: white;
+}
+
+
+.sectionclass{
+  margin: 7px 80px;
+  padding: 2px 40px;
+  height: 230px;
+  background-color: white;
+  
+}
+.sectionHeader{
+  
+  padding-top: 9px;
+  margin: 3px 0px;
+  width: 100%;
+  height: 30px;
+  float: left;
+}
+.sectionHeader button{
+  margin-right: 3px;
+  /* margin-left: -2%;  */
+  float: right;
+  text-align: center;
+  border : none;
+  background-color: #2874f0;
+  color: white;
+  font-weight: 500;
+  height: 23px;
+  width: 50px;
+}
+.sectionHeader h1{
+  margin-top: 3px;
+  padding: 2px;
+  font-size: 10px;
+  color: gray;
+}
+.sectionHeader small{
+    
+  font-size: 9px;
+  color: gray;
+  display: block;
+}
+
+.deal-flex ul{
+  display: flex;
+  flex-basis: 15%;
+  list-style-type: none;
+  margin-bottom: 7px;
+  margin-left: 0%;
+  padding-left: 10px;
+  height: 100px;
+  display: fleX;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-content: center;
+  gap: 3%;
+  
+}
+.deal-flex li a{
+  text-decoration: none;
+  color: black;
+}
+.deal-flex  img{
+  display: block;
+  padding: 2px;
+  margin: 10px auto ;
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+}
+
+.deal-flex h2{
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 2px;
+  margin: 2px;
+  text-overflow: ellipsis;
+
+}
+.deal-flex p{
+  text-align: center;
+  color: rgb(42, 122, 42);
+  padding: 2px;
+  margin: 1px;
+  font-size: 10px;
+  font-weight: 500;
+}
+.deal-flex small{
+  text-align: center;
+  font-size: 9px;
+  color: gray;
+  display: block;
+}
