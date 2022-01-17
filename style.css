@@ -124,7 +124,7 @@ font-size: small;
 
 .sectionHeaderone{
   display: grid;
-  grid-template-columns: 15% 10% 80%;
+  grid-template-columns: 16% 10% 80%;
   padding-top: 9px;
   padding-left: 0%;
   margin: 3px 0px;
@@ -157,7 +157,7 @@ font-size: small;
   display: block;
   
   padding-top: 1%;
-  margin-top: 5%;
+  margin-top: 8%;
   padding-right: 0%;
 }
 
