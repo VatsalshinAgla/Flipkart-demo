@@ -81,7 +81,7 @@ nav a{
 }
 .category-flex  li {
 padding-left: 2%;
-
+font-size: small;
 }
 .category-flex a{
   text-decoration: none;
@@ -104,20 +104,70 @@ padding-left: 2%;
 }
 
 
+.sectionclass1{
+  margin-right:0.5% ;
+  padding-right:0.5%;
+  padding-left: 2.5%;
+  margin-left:5pc ;
+  height: 270px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  
+}
 .sectionclass{
   margin: 7px 80px;
   padding: 2px 40px;
-  height: 230px;
+  height: 280px;
   background-color: white;
   
 }
-.sectionHeader{
-  
+
+.sectionHeaderone{
+  display: grid;
+  grid-template-columns: 15% 10% 80%;
   padding-top: 9px;
+  padding-left: 0%;
   margin: 3px 0px;
   width: 100%;
   height: 30px;
   float: left;
+}
+.sectionHeaderone button{
+  
+  float: right;
+  font-weight: 500;
+  padding-top: 0%;
+  height: 23px;
+  width: 50px;
+  
+  margin-right: 10%;
+  text-align: center;
+  border : none;
+  background-color: #2874f0;
+  color: white;
+}
+.sectionHeaderone big{
+  padding-right: 0%;
+}
+
+.sectionHeaderone small{
+    
+  font-size: 9px;
+  color: gray;
+  display: block;
+  
+  padding-top: 1%;
+  margin-top: 5%;
+  padding-right: 0%;
+}
+
+.sectionHeader{
+  
+  padding-top: 30px;
+  margin: 3px 0px;
+  width: 100%;
+  height: 30px;
+  float: right;
 }
 .sectionHeader button{
   margin-right: 1px;
@@ -131,16 +181,13 @@ padding-left: 2%;
   background-color: #2874f0;
   color: white;
 }
-.sectionHeader h1{
- 
-  font-size: 10px;
-  color: rgb(173, 13, 13);
-}
+
 .sectionHeader small{
     
   font-size: 9px;
   color: gray;
   display: block;
+  
 }
 .deal-flex{
   float: left;
@@ -175,12 +222,12 @@ padding-left: 2%;
 
 .deal-flex h2{
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: normal;
   padding: 2px;
   margin: 2px;
   text-overflow: ellipsis;
-
+  
 }
 .deal-flex p{
   text-align: center;
@@ -198,97 +245,17 @@ padding-left: 2%;
 }
 
 .deal-flex-main{
-  display: grid;
-  grid-template-columns: 90% 10%;
+  display: flex
+}
+.mainsectionclass1{
+display: flex;
+}
+.adv-section{
+  float: right;
+  padding: 0%;
+  
+  width: 20%;
+  
+ 
 }
 
-
-
-
-
-.common-heading{
-  display: flex;
- justify-content: space-between;
-  width: 100%;
-  padding: 5px 20px;
-  margin-top: 20px;
-  box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
-}
-.common-heading-left h1{
-  font-size: 24px;
-  font-weight: 500;
-  line-height:32px;
-  padding:auto;
-}
-.common-heading-left h2{
-  font-size: 15px;
-  padding: 5px 0px;
-  color: rgb(145,141,138) ;
-  font-weight: 200;
-}
-.common-heading-right button{
-  width: 90px;
-  height: 40px;
-  font-size: 18px;
-  background-color: #2874f0;
-  border: none;
-  color: white;
-  border-radius: 2px;
-}
-.common-row{
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  max-height: 366px;
-  margin: 10px 0px;
-}
-.common-col{
-  text-align: center;
-  line-height: 22px;
-  margin-right: 10px;
-}
-.common-col img{
-  opacity: 1;
-  margin:0;
-  width: 100px;
-  height: 100px;
-  transition: 300ms; 
-  max-width: 100%;
-  max-height: 100%;
-}
-.common-col img:hover{
-  transform: scale(0.9);
-}
-.common-col h3,h4,h6{
-  text-transform: capitalize;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-.common-col h3{
-  margin-top: 10px;
-  font-size: 16px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.common-col h4{
-  color: green;
-  font-size: 14px;
-  font-weight: 300;
-}
-.common-col h6{
- color: rgb(161,161,161);
- font-size: 12px;
- font-weight: 100;
-}
-
-.wrapper {
- display: flex;
-}
-aside.image-section{
-   margin-left: 0px;
-}
-
-.timer-image{
- margin: auto;
- padding-top:10px;
-}
