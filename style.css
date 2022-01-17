@@ -34,6 +34,7 @@ nav select{
 }
 .searchbox{
   width: 300px;
+  margin-left: 10px;
 }
  
 
@@ -127,7 +128,8 @@ font-size: small;
   grid-template-columns: 16% 10% 80%;
   padding-top: 9px;
   padding-left: 0%;
-  margin: 3px 0px;
+ 
+  margin-top: 3px ;
   width: 100%;
   height: 30px;
   float: left;
